@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+    <libro titulo="Mein Kampf" autor="Adolf Hitler" fecha="1924"></libro>
+    <libro titulo="Manifiesto Comunista" autor="Karl Marx" fecha="1867"></libro>
+    <libro titulo="Lo que el hombre manchego sabe de la mujer" autor="George Eliot" fecha="2000"></libro>
+</libros>

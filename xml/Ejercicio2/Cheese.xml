@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto>
+        <nombre>Queso azul</nombre>
+        <descripcion>Es un queso, de color azul</descripcion>
+        <precio>Azul</precio> 
+        <caracteristicas>
+            <potencia>0W</potencia>
+            <color>No es azul</color>
+            <tamaño>No se, es azul</tamaño>
+        </caracteristicas>
+    </producto>
+    <producto>
+        <nombre>SCP-426</nombre>
+        <descripcion>Soy una tostadora</descripcion>
+        <precio>99.99 euros</precio> 
+        <caracteristicas>
+            <potencia>Tengo 33W de potecia</potencia>
+            <color>Soy de color plata</color>
+            <tamaño>Soy de tamaño mediano</tamaño>
+        </caracteristicas>
+    </producto>
+</catalogo>
