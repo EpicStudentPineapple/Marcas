@@ -1,1 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<lista>
+    <producto codigo="0001">
+        <nombre>Queso azul</nombre>
+        <descripcion>Es un queso, de color azul</descripcion>
+        <precio>33€</precio>
+        <categoria>Comestibles</categoria>
+        <disponibilidad>En Stock</disponibilidad>
+        <imagen tipo="png"></imagen>
+    </producto>
+    <producto codigo="0002">
+        <nombre>Queso rojo</nombre>
+        <descripcion>Es un queso, de color rojo</descripcion>
+        <precio>55€</precio>
+        <categoria>Comestibles</categoria>
+        <disponibilidad>Agotado</disponibilidad>
+        <imagen tipo="png"></imagen>
+    </producto>
+    <producto codigo="0003">
+        <nombre>Queso naranja</nombre>
+        <descripcion>Es un queso, de color naranja</descripcion>
+        <precio>77€</precio>
+        <categoria>Comestibles</categoria>
+        <disponibilidad>En Stock</disponibilidad>
+        <imagen tipo="png"></imagen>
+    </producto>
+    <producto codigo="0004">
+        <nombre>Queso blanco</nombre>
+        <descripcion>Es un queso, de color blanco</descripcion>
+        <precio>99€</precio>
+        <categoria>Comestibles</categoria>
+        <disponibilidad>Agotado</disponibilidad>
+        <imagen tipo="png"></imagen>    
+    </producto>
+    <producto codigo="0005">
+        <nombre>Queso verde</nombre>
+        <descripcion>Es un queso, de color verde</descripcion>
+        <precio>110€</precio>
+        <categoria>Comestibles</categoria>
+        <disponibilidad>En Stock</disponibilidad>
+        <imagen tipo="png"></imagen>
+    </producto>
+</lista>
