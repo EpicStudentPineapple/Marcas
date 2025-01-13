@@ -5,8 +5,8 @@ public class explor {
 		/*Definición de código */
 		String[] tipoEstrella = {"'Enana roja'", "'Mediana roja'", "'Grande roja'", "'Gigante roja'", "'Supergigante roja'", "'Enana naranja'", "'Mediana naranja'", "'Grande naranja'", "'Supergigante naranja'", "'Enana amarilla'", "'Mediana amarilla'", "'Grande amarilla'", "'Supergigante amarilla'", "'Enana azul'", "'Mediana azul'", "'Grande azul'", "'Supergigante azul'", "'Estrella de Neutrones'", "'Quásar'", "'Agujero negro'", "'Protoestrella'"};
 		String[] tipoSistema = {"'Estrella sin mundos'", "'Estrella con planeta solitario'", "'Estrella con varios mundos'"};
-		String[] planetasTerrenales = {"Planeta de carbono", "Planeta helado", "Mundo océano", "Subtierra", "Super Tierra", "Super Habitable", "Planeta de hierro"};
-		String[] planetasGaseosos = {"Gigante de gas", "Enana marron", "Mini-Neptuno", "Neptuno Caliente", "Júpiter caliente", "Gigante de oro"};
+		String[] planetasTerrenales = {" 'Planeta de carbono'", " 'Planeta helado'", " 'Mundo océano'", "a 'Subtierra'", "a 'Super Tierra'", " 'Planeta Super Habitable'", " 'Planeta de hierro'"};
+		String[] planetasGaseosos = {" 'Gigante de gas'", " 'Enana marron'", " 'Mini-Neptuno'", " 'Neptuno Caliente'", " 'Júpiter caliente'", " 'Gigante de oro'"};
 		String[] tipoLuna = {"Inerte", "Tiranide", "Mina Orbitante", "Super Luna", "Luna congelada", "Luna oceánica"};
 				
 		System.out.print(
@@ -32,7 +32,7 @@ public class explor {
 					/* Cantidad de mundos*/
 					switch (Cantidad) {
 					case 1:
-						System.out.println("Se ha descubrido una "+ tipoEstrella[Estrella]+" clasificada como "+tipoSistema[Cantidad-1]);
+						System.out.println("Se ha descubrido una "+tipoEstrella[Estrella]+" clasificada como "+tipoSistema[Cantidad-1]);
 					break;
 					
 					case 2:
@@ -41,10 +41,10 @@ public class explor {
 						int gasTerra = (int)(Math.random()*100+1);
 						if (gasTerra >= 1 && gasTerra <= 60 ) {
 							int planetaGaseoso = (int)(Math.random()*6+1);
-							System.out.println("El planeta que la orbita es un "+planetasGaseosos[planetaGaseoso-1]+" y es de tipo gaseoso");
+							System.out.println("El planeta que la orbita es un"+planetasGaseosos[planetaGaseoso-1]+" y es de tipo Gaseoso");
 						} else if (gasTerra >= 61 && gasTerra <= 100) {
 							int planetaTerrenal = (int)(Math.random()*6+1);
-							System.out.println("El planeta que la orbita es un "+planetasTerrenales[planetaTerrenal-1]+" y es de tipo Terrenal");
+							System.out.println("El planeta que la orbita es un"+planetasTerrenales[planetaTerrenal-1]+" y es de tipo Terrenal");
 						}
 					break;
 					
@@ -57,10 +57,10 @@ public class explor {
 							int gasTerra2 = (int)(Math.random()*100+1);
 							if (gasTerra2 >= 1 && gasTerra2 <= 60 ) {
 								int planetaGaseoso = (int)(Math.random()*6+1);
-								System.out.println("El planeta que la orbita es un "+planetasGaseosos[planetaGaseoso-1]+" y es de tipo gaseoso");
+								System.out.println("El planeta que la orbita es un"+planetasGaseosos[planetaGaseoso-1]+" y es de tipo gaseoso");
 							} else if (gasTerra2 >= 61 && gasTerra2 <= 100) {
 								int planetaTerrenal = (int)(Math.random()*6+1);
-								System.out.println("El planeta que la orbita es un "+planetasTerrenales[planetaTerrenal-1]+" y es de tipo Terrenal");
+								System.out.println("El planeta que la orbita es un"+planetasTerrenales[planetaTerrenal-1]+" y es de tipo Terrenal");
 							}
 							con++;
 						}
